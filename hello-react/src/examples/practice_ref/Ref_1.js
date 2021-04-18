@@ -12,13 +12,14 @@ class Ref_1 extends Component {
 
   focusInputElement = () => {
     this.inputRref.current.focus();
+    // console.log(this.inputRref);
   };
 
   render() {
     return (
       <div>
         <input ref={this.inputRref} />
-        <scan>나는 Ref</scan>
+        <span>나는 Ref</span>
       </div>
     );
   }
