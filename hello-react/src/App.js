@@ -6,11 +6,13 @@ import React from "react"; //리액트 모듈을 불러옴
 //==> 브라우저 버전마다의 호환성과 JSX문법의 변환을 위해 필요
 
 import Ref_1 from "./examples/practice_ref/Ref_1";
+import Before_redux_1 from "./examples/practice_redux/Before_redux_1";
 
 function App() {
   return (
     <div className="App">
-      <Ref_1 />
+      {/* <Ref_1 /> */}
+      <Before_redux_1 />
     </div>
   );
 }
